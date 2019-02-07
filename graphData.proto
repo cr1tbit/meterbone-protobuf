@@ -59,7 +59,7 @@ message graphData {
   //hurt adding it anyways for code verbosity.
   optional int32 payloadLen = 11;
 
-  
+  optional int32 graphDataVersion = 12;
   //payload will usually be in float format, but int32
   //is supported too.
   repeated int32 payload_int32 = 14;

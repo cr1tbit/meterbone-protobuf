@@ -1,2 +1,2 @@
--I=. --python_out=../src/. graphData.proto 
+protoc -I=. --python_out=../. graphData.proto 
 
